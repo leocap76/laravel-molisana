@@ -16,10 +16,10 @@
                 <li class="active">
                     <a href="">HOME</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="">PRODOTTI</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="">NEWS</a>
                 </li>
             </ul>
