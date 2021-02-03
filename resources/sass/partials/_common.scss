@@ -23,7 +23,7 @@ a{
             background-color: #B2E5FC;
         }
         &:hover{
-            background-color: black;
+            background-color: white;
         }
         a{
             color: black;
@@ -31,4 +31,9 @@ a{
             font-weight: 700;
         }
     }
+}
+
+.container{
+    width: 70%;
+    margin: 0% auto;
 }

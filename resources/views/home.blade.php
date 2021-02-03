@@ -7,11 +7,11 @@
         <title>Laravel</title>
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         <header>
-            <img src="{{ asset("img/marchio-sito-test.png") }}" alt="La Molisana">
+            <img src="{{ asset('img/marchio-sito-test.png') }}" alt="La Molisana">
             <ul class="list-inline">
                 <li class="active">
                     <a href="">HOME</a>
@@ -25,6 +25,17 @@
             </ul>
         </header>
         <main>
+            <section class="container">
+                <h2>LE LUNGHE</h2>
+                <div class="cards">
+
+                    @foreach($lunghe as $lunga)
+
+                    <div class="card">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             La Molisana
