@@ -24,19 +24,45 @@
                 </li>
             </ul>
         </header>
+
         <main>
-            <section class="container">
-                <h2>LE LUNGHE</h2>
-                <div class="cards">
+		<h2>LE LUNGHE</h2>
+		<div class="cards">
+			@foreach ($lunghe as $pasta)
+				<div class="card">
+					<div class="layover">
+						{{ $pasta["titolo"] }}
+					</div>
+					<img src="{{$pasta['src']}}" alt="">
+					
+				</div>
+			@endforeach
+		</div>
 
-                    @foreach($lunghe as $lunga)
+		<h2>LE CORTE</h2>
+		<div class="cards">
+			@foreach ($corte as $pasta)
+				<div class="card">
+					<div class="layover">
+						{{ $pasta["titolo"] }}
+					</div>
+					<img src="{{$pasta['src']}}" alt="">
+				</div>
+			@endforeach
+		</div>
 
-                    <div class="card">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </section>
-        </main>
+		<h2>LE CORTISSIME</h2>
+		<div class="cards">
+			@foreach ($cortissime as $pasta)
+				<div class="card">
+					<div class="layover">
+						{{ $pasta["titolo"] }}
+					</div>
+					<img src="{{$pasta['src']}}" alt="">
+				</div>
+			@endforeach
+		</div>
+	</main>
         <footer>
             La Molisana
         </footer>

@@ -161,6 +161,4 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('prodotto/show', function () {
-    return view('shop');
-});
+
