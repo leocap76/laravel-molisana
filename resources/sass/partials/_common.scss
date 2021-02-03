@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+a{
+    text-decoration: black;
+}
+
+.list-inline{
+    list-style: none;
+
+    li{
+        display: inline-block;
+        padding: 20px 10px;
+        margin: 0px 10px;
+
+        &.active{
+            background-color: #B2E5FC;
+        }
+        &:hover{
+            background-color: black;
+        }
+        a{
+            color: black;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
