@@ -10,20 +10,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <header>
-            <img src="{{ asset('img/marchio-sito-test.png') }}" alt="La Molisana">
-            <ul class="list-inline">
-                <li class="active">
-                    <a href="">HOME</a>
-                </li>
-                <li class="active">
-                    <a href="">PRODOTTI</a>
-                </li>
-                <li class="active">
-                    <a href="">NEWS</a>
-                </li>
-            </ul>
-        </header>
+    @extends('layouts.main')
 
         <main>
 		<h2>LE LUNGHE</h2>
